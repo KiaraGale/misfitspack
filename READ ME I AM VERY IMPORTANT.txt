@@ -1,0 +1,27 @@
+-------------------------
+INSTALLATION INSTRUCTIONS
+-------------------------
+
+This mod requires the Steam version of Sonic Mania. This mod is not designed for the Origin version of the game.
+The Plus DLC is *not* required to play this mod.
+
+You need to have the Mania Mod Loader installed to use this mod. Download it here:
+https://gamebanana.com/tools/6273
+
+To install the mod, simply drop the "Sonic Mania: The Misfits Pack" folder into the mods
+folder. Next, open the mod loader and check the mod in the list to enable it.
+
+This mod utilizes some cheat codes to enable certain functions:
+	- "Remove Zone Locks"
+	- "Force Disable Plus Logo"
+	- "Disable Bonus Warps From Checkpoints"
+All of these should be enabled by default, but it's still a good idea to double-check. Go to the "Codes" tab, and if for some reason these aren't already enabled, enable them. From there, hit "Save & Play" and enjoy!
+ 
+If a cutscene hangs, just press Enter and it will skip.
+
+------------------------------------
+ SONIC MANIA: THE MISFITS PACK
+		DEVELOPER CREDITS      
+------------------------------------
+
+FINISH THIS PLS
