@@ -1,4 +1,4 @@
-Patch "Remove Zone Locks" required
+Patch "Remove Zone Locks" Required
 writenop 00160A10 2 ; Orbinaut
 writenop 00112D11 2 ; LRZ1 Fireball
 writenop 00173196 2 ; LRZ1 Rexon
