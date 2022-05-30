@@ -22,6 +22,8 @@ writenop 00075924 2 ; LRZ2 Flamethrower
 writenop 0016AEB0 2 ; MMZ PohBee
 writenop 0001FC82 2 ; TMZ GymBar
 writenop 001A2E92 2 ; TMZ WallBumper
+writenop 000DC1E0 2 ; MMZ Bomb
+
 
 Patch "Enable Warning Screen"
 write8 00152EDC 0x0
