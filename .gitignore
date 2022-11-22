@@ -1,3 +1,6 @@
 *- Copy*
 *.bak
-Misfits.dll
+*.dll
+build
+GameAPI
+.vscode/

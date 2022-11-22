@@ -209,11 +209,11 @@
     <ClInclude Include="..\GameAPI\C\GameAPI\GameObjects.h" />
     <ClInclude Include="..\GameAPI\C\GameAPI\GameVariables.h" />
     <ClInclude Include="Misfits.h" />
-    <ClInclude Include="Objects\Burrobot.h" />
-    <ClInclude Include="Objects\DebugMode.h" />
-    <ClInclude Include="Objects\Player.h" />
-    <ClInclude Include="Objects\SpearBlock.h" />
-    <ClInclude Include="Objects\Zone.h" />
+    <ClInclude Include="Objects\LZ\Burrobot.h" />
+    <ClInclude Include="Objects\Global\DebugMode.h" />
+    <ClInclude Include="Objects\Global\Player.h" />
+    <ClInclude Include="Objects\LZ\SpearBlock.h" />
+    <ClInclude Include="Objects\Global\Zone.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

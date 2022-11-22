@@ -6,9 +6,9 @@
 
 #include "Burrobot.h"
 
-#include "Player.h"
-#include "Zone.h"
-#include "DebugMode.h"
+#include "Global/Player.h"
+#include "Global/Zone.h"
+#include "Global/DebugMode.h"
 
 ObjectBurrobot *Burrobot;
 

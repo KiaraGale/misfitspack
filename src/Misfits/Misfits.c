@@ -1,11 +1,6 @@
 #include "Misfits.h"
 
-#include "Objects/Player.h"
-#include "Objects/Zone.h"
-#include "Objects/DebugMode.h"
-
-#include "Objects/Burrobot.h"
-#include "Objects/SpearBlock.h"
+#include "All.h"
 
 #if RETRO_USE_MOD_LOADER
 DLLExport bool32 LinkModLogic(EngineInfo *info, const char *id);
@@ -30,6 +25,10 @@ void InitModAPI(void)
 
     // Register Inherited Objects
     MOD_REGISTER_OBJ_OVERLOAD_MSV(SpearBlock, Mod_SpearBlock, NULL, NULL, NULL, NULL, NULL, SpearBlock_StageLoad, NULL, NULL, NULL);
+    
+    MOD_REGISTER_OBJ_OVERLOAD(Orbinaut, NULL, NULL, NULL, NULL, NULL, Orbinaut_StageLoad, NULL, NULL, NULL);
+    MOD_REGISTER_OBJ_OVERLOAD(SwingRope, NULL, NULL, NULL, NULL, NULL, SwingRope_StageLoad, NULL, NULL, NULL);
+    MOD_REGISTER_OBJ_OVERLOAD(Stalactite, NULL, NULL, NULL, NULL, NULL, Stalactite_StageLoad, NULL, NULL, NULL);
 
     // Register New Objects
     MOD_REGISTER_OBJECT(Burrobot, NULL, Burrobot_Update, NULL, NULL, Burrobot_Draw, Burrobot_Create, Burrobot_StageLoad, Burrobot_EditorDraw, Burrobot_EditorLoad, Burrobot_Serialize);

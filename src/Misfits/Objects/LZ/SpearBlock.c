@@ -6,7 +6,7 @@
 // ---------------------------------------------------------------------
 
 #include "SpearBlock.h"
-#include "Zone.h"
+#include "Global/Zone.h"
 
 ObjectSpearBlock *SpearBlock        = NULL;
 ModObjectSpearBlock *Mod_SpearBlock = NULL;
