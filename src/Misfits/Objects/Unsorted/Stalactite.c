@@ -1,4 +1,4 @@
-#include "All.h"
+#include "../All.h"
 #include "Misfits.h"
 
 ObjectStalactite *Stalactite = NULL;

@@ -16,23 +16,23 @@
     <ClCompile Include="Misfits.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Objects\Global\Player.c">
-      <Filter>Source Files\Objects</Filter>
-    </ClCompile>
     <ClCompile Include="..\GameAPI\C\GameAPI\Game.c">
       <Filter>GameAPI</Filter>
     </ClCompile>
     <ClCompile Include="Objects\LZ\Burrobot.c">
-      <Filter>Source Files\Objects</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Objects\Global\DebugMode.c">
-      <Filter>Source Files\Objects</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Objects\Global\Zone.c">
-      <Filter>Source Files\Objects</Filter>
+    <ClCompile Include="Objects\Global\Player.c">
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Objects\LZ\SpearBlock.c">
-      <Filter>Source Files\Objects</Filter>
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Global\Zone.c">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -64,6 +64,12 @@
       <Filter>Source Files\Objects</Filter>
     </ClInclude>
     <ClInclude Include="Misfits.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\All.h">
+      <Filter>Source Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\All.c">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>

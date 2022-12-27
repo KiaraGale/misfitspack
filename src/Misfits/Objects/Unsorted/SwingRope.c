@@ -1,5 +1,5 @@
 #include "Misfits.h"
-#include "All.h"
+#include "../All.h"
 
 ObjectSwingRope *SwingRope = NULL;
 
