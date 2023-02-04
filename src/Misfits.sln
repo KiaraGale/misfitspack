@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Misfits", "Misfits\Misfits.vcxproj", "{A7DDF156-9C7E-4867-8641-65DC61F3D1CE}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Misfits (v5)", "Misfits\Misfits (v5).vcxproj", "{3823B513-2774-4F8C-86A2-B7453D2ABD26}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Misfits (v5u)", "Misfits\Misfits (v5u).vcxproj", "{A7DDF156-9C7E-4867-8641-65DC61F3D1CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +15,14 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3823B513-2774-4F8C-86A2-B7453D2ABD26}.Debug|x64.ActiveCfg = Debug|x64
+		{3823B513-2774-4F8C-86A2-B7453D2ABD26}.Debug|x64.Build.0 = Debug|x64
+		{3823B513-2774-4F8C-86A2-B7453D2ABD26}.Debug|x86.ActiveCfg = Debug|Win32
+		{3823B513-2774-4F8C-86A2-B7453D2ABD26}.Debug|x86.Build.0 = Debug|Win32
+		{3823B513-2774-4F8C-86A2-B7453D2ABD26}.Release|x64.ActiveCfg = Release|x64
+		{3823B513-2774-4F8C-86A2-B7453D2ABD26}.Release|x64.Build.0 = Release|x64
+		{3823B513-2774-4F8C-86A2-B7453D2ABD26}.Release|x86.ActiveCfg = Release|Win32
+		{3823B513-2774-4F8C-86A2-B7453D2ABD26}.Release|x86.Build.0 = Release|Win32
 		{A7DDF156-9C7E-4867-8641-65DC61F3D1CE}.Debug|x64.ActiveCfg = Debug|x64
 		{A7DDF156-9C7E-4867-8641-65DC61F3D1CE}.Debug|x64.Build.0 = Debug|x64
 		{A7DDF156-9C7E-4867-8641-65DC61F3D1CE}.Debug|x86.ActiveCfg = Debug|Win32
