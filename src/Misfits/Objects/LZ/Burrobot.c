@@ -255,7 +255,7 @@ void Burrobot_State_Stopped(void)
     Burrobot_CheckOffScreen();
 }
 
-#if RETRO_INCLUDE_EDITOR
+#if GAME_INCLUDE_EDITOR
 void Burrobot_EditorDraw(void) { Burrobot_Draw(); }
 
 void Burrobot_EditorLoad(void)

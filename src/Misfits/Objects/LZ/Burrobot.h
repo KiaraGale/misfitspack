@@ -30,7 +30,7 @@ void Burrobot_Update(void);
 void Burrobot_Draw(void);
 void Burrobot_Create(void* data);
 void Burrobot_StageLoad(void);
-#if RETRO_INCLUDE_EDITOR
+#if GAME_INCLUDE_EDITOR
 void Burrobot_EditorDraw(void);
 void Burrobot_EditorLoad(void);
 #endif
